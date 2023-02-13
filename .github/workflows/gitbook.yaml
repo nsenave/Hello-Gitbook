@@ -9,5 +9,6 @@ jobs:
     - name: Gitbook Action
       uses: ZanderZhao/gitbook-action@master
       with:
+        source_branch: main
         source_dir: docs
         token: ${{ secrets.GITHUB_TOKEN }}
