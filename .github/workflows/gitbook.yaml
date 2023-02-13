@@ -10,3 +10,4 @@ jobs:
       uses: ZanderZhao/gitbook-action@master
       with:
         source_dir: docs
+        token: ${{ secrets.GITHUB_TOKEN }}
