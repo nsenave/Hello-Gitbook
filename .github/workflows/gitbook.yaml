@@ -1,4 +1,4 @@
-name: V3 Eno Gitbook
+name: Gitbook action
 on: workflow_dispatch #push
 jobs:
   build:
