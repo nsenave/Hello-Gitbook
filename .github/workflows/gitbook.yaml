@@ -1,0 +1,12 @@
+name: V3 Eno Gitbook
+on: workflow_dispatch #push
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout action
+      uses: actions/checkout@v2
+    - name: Gitbook Action
+      uses: ZanderZhao/gitbook-action@master
+      with:
+        source_dir: docs
